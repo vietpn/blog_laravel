@@ -3,7 +3,7 @@
 namespace App\Http\Requests\Admin;
 
 use Illuminate\Foundation\Http\FormRequest;
-use App\Models\Admin\Post;
+use App\Models\Post;
 
 class CreatePostRequest extends FormRequest
 {
