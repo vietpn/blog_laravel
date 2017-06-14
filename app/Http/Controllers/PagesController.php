@@ -9,7 +9,7 @@
 namespace App\Http\Controllers;
 
 
-use App\Post;
+use App\Models\Post;
 
 class PagesController extends Controller
 {
