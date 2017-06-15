@@ -185,7 +185,7 @@ return [
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
-        Dingo\Api\Provider\LaravelServiceProvider::class
+        Laravel\Passport\PassportServiceProvider::class,
     ],
 
     /*

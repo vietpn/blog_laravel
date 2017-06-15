@@ -69,7 +69,7 @@ class Handler extends ExceptionHandler
      * @param  \Exception $e
      * @return mixed
      */
-    protected function convertExceptionToResponse(Exception $e)
+    /*protected function convertExceptionToResponse(Exception $e)
     {
         if (config('app.debug')) {
             $whoops = new \Whoops\Run;
@@ -83,5 +83,5 @@ class Handler extends ExceptionHandler
         }
 
         return parent::convertExceptionToResponse($e);
-    }
+    }*/
 }

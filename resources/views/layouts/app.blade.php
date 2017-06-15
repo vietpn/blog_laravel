@@ -149,6 +149,7 @@
     <!-- AdminLTE App -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.3.11/js/app.min.js"></script>
 
+    <script src="{{ elixir('/js/app.js') }}"></script>
     @yield('scripts')
 </body>
 </html>
