@@ -27,7 +27,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('admin/posts/{posts}', ['as'=> 'admin.posts.show', 'uses' => 'Admin\PostController@show']);
     Route::get('admin/posts/{posts}/edit', ['as'=> 'admin.posts.edit', 'uses' => 'Admin\PostController@edit']);
 
-    Route::resource('posts', 'PostController');
+    //Route::resource('posts', 'PostController');
 });
 
 
