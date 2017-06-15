@@ -108,7 +108,7 @@ return [
 
     'options' => [
 
-        'softDelete' => true,
+        'softDelete' => false, // disable soft delete
 
         'tables_searchable_default' => false,
     ],
