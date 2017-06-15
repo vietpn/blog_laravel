@@ -184,6 +184,8 @@ return [
         \InfyOm\AdminLTETemplates\AdminLTETemplatesServiceProvider::class,
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
+        Dingo\Api\Provider\LaravelServiceProvider::class
     ],
 
     /*
