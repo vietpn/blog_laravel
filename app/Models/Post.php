@@ -62,7 +62,9 @@ class Post extends Model
      * @var array
      */
     public static $rules = [
-        
+        'title' => 'required|max:255',
+        'slug' => 'required|alpha_dash|min:5|max:255|unique:posts,slug',
+        'body' => 'required'
     ];
 
     
