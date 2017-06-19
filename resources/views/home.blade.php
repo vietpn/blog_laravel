@@ -8,4 +8,6 @@
             <passport-personal-access-tokens></passport-personal-access-tokens>
         </div>
     </div>
+
+    <script src="{{ elixir('/js/app.js') }}"></script>
 @endsection
